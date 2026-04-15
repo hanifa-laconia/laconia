@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Steel &amp; Construction | Laconia Group Limited</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "tertiary": "#030d1c",
+                    "on-surface-variant": "#43474e",
+                    "on-secondary-fixed": "#181c20",
+                    "surface-variant": "#e1e3e4",
+                    "surface-container": "#edeeef",
+                    "on-tertiary-container": "#808a9e",
+                    "inverse-on-surface": "#f0f1f2",
+                    "tertiary-fixed": "#d9e3f9",
+                    "primary-fixed-dim": "#adc8f5",
+                    "on-secondary-fixed-variant": "#43474b",
+                    "on-primary-fixed-variant": "#2c486d",
+                    "background": "#f8f9fa",
+                    "secondary-fixed-dim": "#c3c7cb",
+                    "secondary": "#5b5f63",
+                    "surface-dim": "#d9dadb",
+                    "on-tertiary-fixed": "#121c2c",
+                    "surface": "#f8f9fa",
+                    "on-error": "#ffffff",
+                    "on-primary-fixed": "#001c3a",
+                    "on-tertiary": "#ffffff",
+                    "secondary-fixed": "#e0e3e7",
+                    "on-error-container": "#93000a",
+                    "on-primary-container": "#718bb5",
+                    "inverse-surface": "#2e3132",
+                    "surface-bright": "#f8f9fa",
+                    "on-secondary": "#ffffff",
+                    "surface-container-lowest": "#ffffff",
+                    "on-primary": "#ffffff",
+                    "surface-container-low": "#f3f4f5",
+                    "primary": "#000d21",
+                    "primary-fixed": "#d4e3ff",
+                    "on-background": "#191c1d",
+                    "secondary-container": "#dde0e5",
+                    "error-container": "#ffdad6",
+                    "outline-variant": "#c4c6cf",
+                    "surface-container-high": "#e7e8e9",
+                    "surface-container-highest": "#e1e3e4",
+                    "on-tertiary-fixed-variant": "#3d4759",
+                    "surface-tint": "#455f87",
+                    "outline": "#74777f",
+                    "on-surface": "#191c1d",
+                    "tertiary-container": "#192333",
+                    "on-secondary-container": "#5f6367",
+                    "error": "#ba1a1a",
+                    "tertiary-fixed-dim": "#bdc7dc",
+                    "inverse-primary": "#adc8f5",
+                    "primary-container": "#002347"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.125rem",
+                    "lg": "0.25rem",
+                    "xl": "0.5rem",
+                    "full": "0.75rem"
+            },
+            "fontFamily": {
+                    "headline": ["Inter"],
+                    "body": ["Inter"],
+                    "label": ["Inter"]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+        }
+        .hero-gradient {
+            background: linear-gradient(to bottom, rgba(0, 13, 33, 0.7), rgba(0, 13, 33, 0.9));
+        }
+    </style>
+</head>
+<body class="bg-background font-body text-on-background selection:bg-primary-container selection:text-white">
+<!-- TopNavBar (Shared Component) -->
+<nav class="fixed top-0 w-full z-50 bg-background dark:bg-[#000D21] border-b border-outline-variant/20">
+<div class="flex justify-between items-center w-full px-8 py-4 max-w-7xl mx-auto">
+<a href="index.html" class="text-xl font-black tracking-tighter text-primary dark:text-white uppercase">Laconia Group</a>
+<button id="mobile-menu-btn" class="md:hidden text-primary dark:text-white p-2">
+                <span class="material-symbols-outlined">menu</span>
+            </button>
+            <div class="hidden md:flex items-center space-x-8 font-['Inter'] font-medium text-sm tracking-tight">
+<a class="text-secondary dark:text-gray-400 hover:text-primary dark:hover:text-white transition-colors duration-200" href="index.html">Home</a>
+<a class="text-secondary dark:text-gray-400 hover:text-primary dark:hover:text-white transition-colors duration-200" href="about.html">About</a>
+<a class="text-primary dark:text-[#F8F9FA] border-b-2 border-primary dark:border-[#F8F9FA] pb-1" href="services.html">Services</a>
+<a class="text-secondary dark:text-gray-400 hover:text-primary dark:hover:text-white transition-colors duration-200" href="contact.html">Contact</a>
+</div>
+<a href="contact.html" class="hidden md:block"><button class="bg-primary-container text-white px-6 py-2.5 text-xs font-bold uppercase tracking-widest hover:bg-primary transition-all duration-300 active:scale-95 rounded-none">
+    Get a Quote
+</button></a>
+</div>
+</nav>
+<main class="pt-20">
+<!-- Hero Section -->
+<header class="relative h-[819px] w-full flex items-center overflow-hidden">
+<img alt="Industrial Steel Construction" class="absolute inset-0 w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAUUC0WG8PimsKMeWqT5omOLtxNbEyzl693AYJ6fXd3IYK6ukcJY8MME9LDetzLE3CEDDyzM4E07EGwq-hivhv9Zsztc1eRVYWTGqTA-NUspo1mKFSKlywJiWMuI5Jz0cSRHpXzfSk-zL6U4MUE0xhcBne5H53exbyFHRxKF1g8oEgr3TsXXTvchpfCOBXEMAGuEjCLisdhfOUBeHPSeYWg708TnCR0g-ZLAH1T8FdbUzwIe0uElR4C4KE6HoVmVjuCAUf4od9EVn8"/>
+<div class="absolute inset-0 hero-gradient"></div>
+<div class="relative max-w-7xl mx-auto px-8 w-full">
+<div class="max-w-2xl">
+<div class="bg-white text-primary px-4 py-2 inline-block text-xs font-bold uppercase tracking-widest mb-6">Sector Profile: Steel</div>
+<h1 class="text-white text-6xl md:text-7xl font-black tracking-tighter leading-none mb-6">
+                    Steel &amp; <br/><span class="text-blue-100">Construction</span>
+</h1>
+<p class="text-surface-variant text-lg md:text-xl leading-relaxed mb-10 max-w-lg">
+                    At Laconia Group, we set the standard for quality and reliability in the steel industry. Whether you're in need of pig iron, billets, reinforcing steel bars, or more, we deliver excellence with every product.
+                </p>
+<div class="flex gap-4">
+<a href="contact.html"><button class="bg-primary-container text-white px-8 py-4 font-bold text-sm uppercase tracking-widest hover:brightness-110 transition-all">
+                        Request Pricing
+                    </button></a>
+
+</div>
+</div>
+</div>
+</header>
+<!-- Capabilities Section (Editorial Layout) -->
+<section class="py-32 bg-surface">
+<div class="max-w-7xl mx-auto px-8">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center mb-20">
+<div>
+<h2 class="text-4xl font-black tracking-tight text-primary uppercase mb-8 leading-tight">PREMIUM STEEL PRODUCTS</h2>
+<div class="space-y-6 text-secondary text-lg leading-relaxed">
+<p>At Laconia Group, we set the standard for quality and reliability in the steel industry. Whether you're in need of pig iron, billets, reinforcing steel bars, or more, we deliver excellence with every product. Your satisfaction is our top priority, and our dedication to superior steel products is unmatched.</p>
+<p>Trust Laconia Group to elevate your projects with the finest steel solutions available. Your success is our success, and we're here to support you every step of the way.</p>
+</div>
+</div>
+<div class="grid grid-cols-2 gap-4">
+<div class="bg-surface-container h-80 relative overflow-hidden">
+<img src="https://lh3.googleusercontent.com/aida-public/AB6AXuDet5ms-SqTyv_8tfViRQk6zmLiMqGX8w1N5ypuIqdYHWFbSHc6qE8mC3MG0Sm1B1UHyWQ0nLqa9o0tRR6-UCCEQ3j9aSCj69QaUCjuqCyb9YjdhlECMuzF7rKmn0VAlVNdw6KR1fiZxUNAGuSE1SFPlnO--TKZXykuryJV01SLV9gLoJIcqn1BFcbeMz09e_NEeYP4Z5949ygBNsPFD9ytLL-kLNaMokBI8x4FG9nsklwfqbx5iQcNamv9sdfUB0lhEL8a2_UR8zk" class="absolute inset-0 w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500" alt="Steel">
+</div>
+<div class="bg-surface-container h-80 relative overflow-hidden mt-12">
+<img src="https://lh3.googleusercontent.com/aida-public/AB6AXuCOHYPcIrvew5poPRDSXqI5YOoEO1JnQxYP-gmen7hHAnHAHk7g-E8LBnRlXkh6FLtb4igvFJezwNJBG8fnFXdpBthttEdLQyZuQm6cvYEp6QqdIGt3s75urNXdIoTLMsORtbSOGs2pcd_j-tYLd6KuASZNs42h_DRbZD4plutNlMOuNbJRKlRVoJI7lNJ8U1j1o86di2Cmo2Za-TGjicQOn0XTJMp5YOQZl5hQKsDaqSn6qFo8dwXAV81x7bK8xWhxqcnQvC37w1k" class="absolute inset-0 w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500" alt="Rebar">
+</div>
+</div>
+</div>
+
+<div class="bg-surface-container-low p-12 border-l-4 border-[#ba1a1a]">
+<h2 class="text-3xl font-black tracking-tight text-primary uppercase mb-6">ARCELORMITTAL PARTNERSHIP</h2>
+<p class="text-secondary text-lg leading-relaxed mb-6">We provide ArcelorMittal, a world-leading steel and mining company. ArcelorMittal excels in major steel segments, including the automotive industry, construction, household appliances, and packaging.</p>
+<p class="text-secondary text-lg leading-relaxed">With extensive raw material deposits and an efficient sales network, ArcelorMittal has representative offices in 60 countries worldwide and conducts metallurgical activities across four continents, serving both developed and emerging markets.</p>
+</div>
+</div>
+</section>
+<!-- Products Grid (Bento Grid Inspired) -->
+<section class="py-32 bg-surface-container-low">
+<div class="max-w-7xl mx-auto px-8">
+<div class="mb-16">
+<span class="text-sm font-bold uppercase tracking-[0.2em] text-primary-container mb-2 block">Our Inventory</span>
+<h2 class="text-4xl font-black text-primary tracking-tighter">Essential Materials</h2>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+<!-- Product 1 -->
+<div class="md:col-span-2 group relative bg-surface-container-lowest p-8 overflow-hidden">
+<div class="relative z-10 flex flex-col h-full justify-between">
+<div>
+<h3 class="text-2xl font-black text-primary uppercase mb-2">Pig Iron &amp; Billets</h3>
+<p class="text-secondary max-w-sm mb-6">High-purity raw materials for foundry and manufacturing applications.</p>
+<span class="material-symbols-outlined text-4xl text-primary-container">precision_manufacturing</span>
+</div>
+<button class="mt-12 text-sm font-bold uppercase tracking-widest text-primary flex items-center gap-2 group-hover:gap-4 transition-all">
+                            Technical Specs <span class="material-symbols-outlined">arrow_forward</span>
+</button>
+</div>
+<img alt="Iron" class="absolute right-0 bottom-0 w-2/3 h-full object-cover opacity-10 group-hover:opacity-20 transition-opacity" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBf4UZtvmCs2mQxWvLzmJDZ_KGUoEig96vxMVQ3FS2dZOjIOarfVQHyc85N_v9O1xmBrGjDYcz-BWLu6LNCu06j5QCk7PWT4NRdI1myzKMs5C2YqeiVtuLWztKneaYTaaIszxzlhTdX8RtfELutXF6NDSl9nYEB8ldWHXC2q35QdRW1EHtD7FDwBE5ulslnhLWmW7sfwWNKDsHCXdThl0-tAV73ckVca2QrdH4LK2x05QEjw88Ilgse3Ip12ghOgdO2PC3Sp2AZ_sE"/>
+</div>
+<!-- Product 2 -->
+<div class="group relative bg-primary-container p-8 overflow-hidden text-white">
+<h3 class="text-2xl font-black uppercase mb-2">High-Tensile Rebar</h3>
+<p class="text-on-primary-container mb-6">Standard and customized reinforcement bars for heavy infrastructure.</p>
+<span class="material-symbols-outlined text-4xl">architecture</span>
+<img alt="Rebar" class="absolute inset-0 w-full h-full object-cover opacity-20 group-hover:scale-110 transition-transform duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA7Q9s1Hh4v4Fnl9FOH321GZDnQefUqlo7K_kyx-OA3vV5ZrtH2_IrBWUa6iPxk8tv_3tXaqHxghMDR_X376UQIUFFbEvezCJNfM-izHUUPkYLr60XzYja7PXdi41haZeirvcjYxeU1qAp_7iJFRdNuejTD9xWFMDWjRR3G0WBJ8lhYDuQhptxw5w-T0POOwfaXP-pqyd2cbSKHSkRiYtpnFM5-3lEUoJYuY1sA4ycFyBtNksFQ-utzigpLAtC1UzCxPVOfLvIpfWY"/>
+</div>
+<!-- Product 3 -->
+<div class="group relative bg-surface-container-lowest p-8 overflow-hidden">
+<h3 class="text-2xl font-black text-primary uppercase mb-2">Structural Sections</h3>
+<p class="text-secondary mb-6">I-beams, H-beams, and channels for large-scale framing.</p>
+<span class="material-symbols-outlined text-4xl text-primary-container">foundation</span>
+<img alt="Beams" class="absolute inset-0 w-full h-full object-cover opacity-5 group-hover:scale-110 transition-transform duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD-yGctd1j82InAuqpkD9YcePp793eiJFVkOoNBSHVCT4rOoUxcY1aTRPCxw-4RKeyEcKVFvtreckQDxSZkd0mIIRuvv_3CWbmaTz7hfVWXK04Bdj5H-RNtf4zzPy7WyvGOvIDv7h2noYJn0n61270ZxZxxYORMXgWAeVb_-_EVVS0C4WlAVrirVhhierMWdBJ8rfEDUoP8725PG28DKNjwc-sfvwiOZlzxj0o1VVPoZt8Zn3KFJqyddrFSoqsFc8sSCBPLOgC1n3w"/>
+</div>
+<!-- Product 4 -->
+<div class="md:col-span-2 group relative bg-surface-container-high p-8 overflow-hidden">
+<div class="relative z-10">
+<h3 class="text-2xl font-black text-primary uppercase mb-2">Building Materials</h3>
+<p class="text-secondary max-w-md mb-6">Comprehensive supply of cement clinker, roofing sheets, and industrial coatings.</p>
+<span class="material-symbols-outlined text-4xl text-primary-container">construction</span>
+</div>
+<img alt="Materials" class="absolute right-0 bottom-0 w-1/2 h-full object-cover opacity-20 group-hover:opacity-40 transition-opacity" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDmsLgHL_jGIx-WQKU4CAp8uns2bDi8RdT3P1FsCxZGDwFnXXo8CgTEr-fs1nFC3C8dAZcCOh3sfOvSkHYLNhkR80BFur9--KFMTi0r2QVqrnkVE-3UPXSuq-3is7ogtbVpOrtemMczhKpI3j9PKZXEcVCeIMPib7yUUKFFkt4qU_r3Yf-OfTWuYmaWOEcLCiGO7zhPYAZdN_3Mtg5EStSNeX7OGkxxeivdW_RPUhPI9UQ6o-xIcDSt23lyd9Ru0K26y2t6wtAmraw"/>
+</div>
+</div>
+</div>
+</section>
+<!-- Applications Section -->
+<section class="py-32 bg-primary">
+<div class="max-w-7xl mx-auto px-8">
+<div class="text-center mb-20">
+<h2 class="text-white text-4xl font-black tracking-tight uppercase">Strategic Applications</h2>
+<div class="w-24 h-1 bg-primary-container mx-auto mt-6"></div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+<div class="text-center px-4">
+<div class="w-16 h-16 bg-white/5 flex items-center justify-center mx-auto mb-8">
+<span class="material-symbols-outlined text-white text-4xl">domain</span>
+</div>
+<h4 class="text-white text-xl font-bold mb-4 uppercase tracking-widest">Commercial Construction</h4>
+<p class="text-gray-400 leading-relaxed">Providing high-grade structural elements for skyscrapers, shopping malls, and residential complexes across emerging urban centers.</p>
+</div>
+<div class="text-center px-4">
+<div class="w-16 h-16 bg-white/5 flex items-center justify-center mx-auto mb-8">
+<span class="material-symbols-outlined text-white text-4xl">factory</span>
+</div>
+<h4 class="text-white text-xl font-bold mb-4 uppercase tracking-widest">Industrial Infrastructure</h4>
+<p class="text-gray-400 leading-relaxed">Supplying materials for manufacturing plants, refineries, and power generation facilities requiring extreme durability.</p>
+</div>
+<div class="text-center px-4">
+<div class="w-16 h-16 bg-white/5 flex items-center justify-center mx-auto mb-8">
+<span class="material-symbols-outlined text-white text-4xl">link</span>
+</div>
+<h4 class="text-white text-xl font-bold mb-4 uppercase tracking-widest">Civil Engineering</h4>
+<p class="text-gray-400 leading-relaxed">Sourcing critical steel components for bridges, highways, and port developments that define regional connectivity.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- CTA Section -->
+<section class="py-24 bg-surface-container-lowest">
+<div class="max-w-7xl mx-auto px-8">
+<div class="bg-surface-container-high p-16 flex flex-col md:flex-row justify-between items-center">
+<div class="mb-8 md:mb-0">
+<h2 class="text-3xl font-black text-primary tracking-tight mb-2">Partner with Laconia Group</h2>
+<p class="text-secondary text-lg">Secure your supply chain with a reliable industrial partner.</p>
+</div>
+<a href="contact.html"><button class="bg-primary text-white px-10 py-5 font-black text-sm uppercase tracking-[0.2em] hover:bg-primary-container transition-all active:scale-95">
+                    Request Pricing
+                </button></a>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer (Shared Component) -->
+
+<footer class="bg-[#000D21] dark:bg-[#000814] text-white">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-12 px-8 py-20 max-w-7xl mx-auto font-['Inter'] text-sm leading-relaxed">
+<div class="space-y-6">
+<div class="text-lg font-bold text-white uppercase tracking-widest">
+                    Laconia Group
+                </div>
+<p class="text-[#5B5F63] leading-loose">
+                    Establishing the standards for industrial excellence across the African continent through rigorous trading and architectural mastery.
+                </p>
+</div>
+<div class="flex flex-col gap-4">
+<span class="text-white font-bold uppercase tracking-widest mb-2">Navigation</span>
+<a class="text-[#5B5F63] hover:text-white transition-all opacity-80 hover:opacity-100" href="index.html">Home</a>
+<a class="text-[#5B5F63] hover:text-white transition-all opacity-80 hover:opacity-100" href="about.html">About</a>
+<a class="text-[#5B5F63] hover:text-white transition-all opacity-80 hover:opacity-100" href="services.html">Services</a>
+<a class="text-[#5B5F63] hover:text-white transition-all opacity-80 hover:opacity-100" href="contact.html">Contact</a>
+</div>
+<div class="flex flex-col gap-4">
+<span class="text-white font-bold uppercase tracking-widest mb-2">Connect</span>
+<span class="text-[#5B5F63]">Phone: +254 725 575 727</span>
+<span class="text-[#5B5F63]">Email: md@laconiagrp.org</span>
+<span class="text-[#5B5F63]">Web: www.laconiagrp.org</span>
+</div>
+<div class="flex flex-col gap-4">
+<span class="text-white font-bold uppercase tracking-widest mb-2">Legal</span>
+<p class="text-[#5B5F63] text-xs">
+                    © <span id="current-year">2024</span> Laconia Group Limited. Nairobi, Kenya. All industrial rights reserved and protected by regional statutes.
+                </p>
+</div>
+</div>
+</footer>
+
+
+
+
+<!-- Mobile Menu Overlay -->
+<div id="mobile-menu" class="fixed inset-0 bg-background z-50 hidden flex-col">
+    <div class="flex justify-between items-center p-6 border-b border-surface-variant/20">
+        <a href="index.html" class="text-xl font-black tracking-tighter text-primary dark:text-white uppercase">Laconia Group</a>
+        <button id="mobile-menu-close" class="text-primary dark:text-white p-2">
+            <span class="material-symbols-outlined">close</span>
+        </button>
+    </div>
+    <div class="flex flex-col p-6 space-y-6 text-lg font-bold tracking-tight">
+        <a class="text-secondary hover:text-primary transition-colors" href="index.html">Home</a>
+        <a class="text-secondary hover:text-primary transition-colors" href="about.html">About</a>
+        <a class="text-secondary hover:text-primary transition-colors" href="services.html">Services</a>
+        <a class="text-secondary hover:text-primary transition-colors" href="contact.html">Contact</a>
+    </div>
+</div>
+
+<script>
+    document.getElementById('current-year').textContent = new Date().getFullYear();
+    
+    const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+    const mobileMenuClose = document.getElementById('mobile-menu-close');
+    const mobileMenu = document.getElementById('mobile-menu');
+
+    if (mobileMenuBtn && mobileMenuClose && mobileMenu) {
+        mobileMenuBtn.addEventListener('click', () => {
+            mobileMenu.classList.remove('hidden');
+            mobileMenu.classList.add('flex');
+        });
+        mobileMenuClose.addEventListener('click', () => {
+            mobileMenu.classList.add('hidden');
+            mobileMenu.classList.remove('flex');
+        });
+    }
+</script>
+</body></html>
