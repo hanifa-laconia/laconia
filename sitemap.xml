@@ -2,42 +2,47 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
         <loc>https://laconiagrp.org/</loc>
-        <lastmod>2026-04-15</lastmod>
+        <lastmod>2026-05-05</lastmod>
         <priority>1.0</priority>
     </url>
     <url>
         <loc>https://laconiagrp.org/about.html</loc>
-        <lastmod>2026-04-15</lastmod>
+        <lastmod>2026-05-05</lastmod>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://laconiagrp.org/services.html</loc>
-        <lastmod>2026-04-15</lastmod>
+        <lastmod>2026-05-05</lastmod>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://laconiagrp.org/steel.html</loc>
-        <lastmod>2026-04-15</lastmod>
+        <lastmod>2026-05-05</lastmod>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://laconiagrp.org/diamonds.html</loc>
+        <lastmod>2026-05-05</lastmod>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://laconiagrp.org/interior.html</loc>
-        <lastmod>2026-04-15</lastmod>
+        <lastmod>2026-05-05</lastmod>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://laconiagrp.org/fire.html</loc>
-        <lastmod>2026-04-15</lastmod>
+        <lastmod>2026-05-05</lastmod>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://laconiagrp.org/agriculture.html</loc>
-        <lastmod>2026-04-15</lastmod>
+        <lastmod>2026-05-05</lastmod>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://laconiagrp.org/contact.html</loc>
-        <lastmod>2026-04-15</lastmod>
+        <lastmod>2026-05-05</lastmod>
         <priority>0.8</priority>
     </url>
 </urlset>
